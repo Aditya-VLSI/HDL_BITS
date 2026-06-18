@@ -1,3 +1,27 @@
+############################
+simple wire
+############################
 module top_module( input in, output out );
 assign out = in
 endmodule
+
+###########################
+four wires
+###########################
+module top_module( 
+    input a,b,c,
+    output w,x,y,z );
+    assign w=a;
+    assign x=b;
+    assign y=b;
+    assign z=c;
+endmodule
+
+##########################
+Inverter
+##########################
+module top_module( input in, output out );
+    assign out = ~in;
+endmodule
+
+##########################
