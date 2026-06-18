@@ -1,2 +1,2 @@
 # HDL_BITS
-practice verilog from scratch 
+practice verilog HDL programming from scratch 
